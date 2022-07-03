@@ -1,0 +1,20 @@
+{
+  "name": "vivaldi-source-auto-update",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel index.ts"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^16.2.14",
+    "@types/node": "^18.0.0",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.0",
+    "node-fetch": "^3.2.6"
+  }
+}
